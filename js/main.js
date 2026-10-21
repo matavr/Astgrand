@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openVideoModal(url) {
     if (videoModal && videoIframe) {
-      videoIframe.src = url || 'https://www.youtube.com/embed/7sFDsPrtPoQ?autoplay=1';
+      videoIframe.src = url || 'https://youtu.be/xBuLs3MuMrI?si=fY-UqezP9EVamb6g?autoplay=1';
       videoModal.classList.add('active');
     }
   }
